@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/nurture-bass-lake/static/css/main.4cc40fcf.css",
+    "main.js": "/nurture-bass-lake/static/js/main.57b36650.js",
+    "static/media/acai1.jpg": "/nurture-bass-lake/static/media/acai1.8e036275d3d0300a1da0.jpg",
+    "static/media/bassLake2.jpg": "/nurture-bass-lake/static/media/bassLake2.e74c09c0657e2b1830e2.jpg",
+    "static/media/restaurant-inside.jpg": "/nurture-bass-lake/static/media/restaurant-inside.e6ab93e5dd264eb6ddbb.jpg",
+    "static/media/bassLake3.jpg": "/nurture-bass-lake/static/media/bassLake3.4765f5ae872360eaabf0.jpg",
+    "static/media/eggs1.jpg": "/nurture-bass-lake/static/media/eggs1.908626ed335c19a19fda.jpg",
+    "static/media/bassLake1.jpg": "/nurture-bass-lake/static/media/bassLake1.d8309ea3f982911524c3.jpg",
+    "static/media/coffee1.jpg": "/nurture-bass-lake/static/media/coffee1.33fd9c9b12d3a9928fc7.jpg",
+    "static/media/nurture-dark.png": "/nurture-bass-lake/static/media/nurture-dark.73773b475fe2578e9393.png",
+    "index.html": "/nurture-bass-lake/index.html",
+    "main.4cc40fcf.css.map": "/nurture-bass-lake/static/css/main.4cc40fcf.css.map",
+    "main.57b36650.js.map": "/nurture-bass-lake/static/js/main.57b36650.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4cc40fcf.css",
+    "static/js/main.57b36650.js"
+  ]
+}
