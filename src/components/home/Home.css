@@ -1,3 +1,53 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.carousel-container {
+    height: calc(85vh - 150px);
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+}
 .carousel {
-    max-height: 100%;
+    width: 70%;
+    height: 100%;
+    /* border: 2px solid red; */
+}
+
+.carousel div {
+    height: calc(85vh - 150px);
+    width: 100%;
+    /* border: 2px solid red; */
+}
+
+.carousel img {
+    height: 100%;
+    width: 100%;
+    /* border: 2px solid red; */
+    object-fit: cover;
+    object-position: center;
+    border-radius: 5px;
+}
+
+.carousel p {
+    width: 200px;
+    color: red;
+}
+
+.home-title {
+    text-align: center;
+}
+
+.home-title h1 {
+    font-style: italic;
+}
+
+@media (max-width: 600px) {
+    .carousel {
+        width: 100%;
+        height: 100%;
+        /* border: 2px solid red; */
+    }
 }

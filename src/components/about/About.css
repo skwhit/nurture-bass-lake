@@ -1,0 +1,26 @@
+.about-container {
+    height: calc(100vh - 150px);
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.restaurant-info {
+    width: 80%;
+}
+
+.restaurant-info-left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.restaurant-info-left div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
