@@ -1,26 +1,109 @@
 .about-container {
-    height: calc(100vh - 150px);
+    min-height: calc(100vh - 150px);
     background-color: white;
     color: black;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 20px;
+    padding-top: 170px;
 }
 
 .restaurant-info {
     width: 80%;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.restaurant-info-left {
+.restaurant-info > div {
     width: 50%;
     display: flex;
-    flex-direction: column;
-    gap: 20px;
+    /* border: 2px solid red; */
+   
+    padding: 50px 50px;
+    padding-bottom: 50px;
 }
 
-.restaurant-info-left div {
+.restaurant-info-one, .restaurant-info-four {
+    flex-direction: column;
+    gap: 20px;
+    justify-content: space-around;
+    
+}
+
+.restaurant-info-one > div > div {
     display: flex;
     flex-direction: column;
     gap: 5px;
+}
+
+.restaurant-info-two {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.restaurant-info-two > div {
+    
+}
+
+.restaurant-info-two-left {
+    width: calc(100%*1/2);
+    height: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+.restaurant-info-two-right {
+    width: calc(100%*1/2);
+    height: 100%;
+    /* border: 2px solid red; */
+}
+
+.restaurant-info-two img, .restaurant-info-three img {
+    width: 100%;
+    height: 100%;
+    /* border: 2px solid red; */
+    padding: 4px;
+    border-radius: 5px;
+}
+
+.restaurant-info-three {
+    flex-direction: column;
+}
+
+.restaurant-info-three-top {
+    width: 100%;
+}
+
+.restaurant-info-three-bottom {
+    display: flex;
+    
+}
+
+.restaurant-info-three-bottom div {
+    width: calc(100%/3);
+}
+
+.restaurant-info-three-bottom img {
+    object-fit: cover;
+}
+
+@media (max-width: 600px) {
+    .restaurant-info {
+        width: 100%;
+    }
+
+    .restaurant-info > div {
+        width: 100%;
+        display: flex;
+        /* border: 2px solid red; */
+       
+        padding: 10px 20px;
+    }
+
+    .restaurant-info-three {
+        order: 4;
+    }
+
 }
