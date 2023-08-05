@@ -68,7 +68,7 @@ export default function About() {
             <h1>Who we serve</h1>
             <p>
               Whether you're a Bass Lake local or you are vacationing at Bass
-              Lake, we have a place for you. We offer our customers a inviting
+              Lake, we have a place for you. We offer our customers an inviting
               environment in which to linger and enjoy food and beverages. We
               have comfortable indoor dining as well as patio dining at the back
               of the building that has a rare view of Bass Lake. The patio is a

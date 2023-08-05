@@ -51,7 +51,7 @@
         height: 100%;
         /* border: 2px solid red; */
     }
-    .carousel-img {
+    .carousel img {
         border-radius: none;
     }
 }
