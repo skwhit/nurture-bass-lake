@@ -4,6 +4,14 @@ footer {
     padding: 25px 5%;
     height: 600px;
     display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+footer section {
+    display: flex;
+    width: 100%;
+    max-width: 2400px;
 }
 
 footer p {
