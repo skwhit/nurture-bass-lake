@@ -6,7 +6,7 @@
 }
 
 .carousel-container {
-    height: calc(85vh - 150px);
+    height: calc(85dvh - 150px);
     /* border: 2px solid red; */
     display: flex;
     justify-content: center;
@@ -18,7 +18,7 @@
 }
 
 .carousel div {
-    height: calc(85vh - 150px);
+    height: calc(85dvh - 150px);
     width: 100%;
     /* border: 2px solid red; */
 }

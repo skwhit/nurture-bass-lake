@@ -47,9 +47,9 @@ export default function Navbar({ setHome }) {
         className={`hamburger${active ? " active" : ""}`}
         onClick={hamburgerClick}
       >
-        <span className="bar"></span>
-        <span className="bar"></span>
-        <span className="bar"></span>
+        <span className={`bar${active ? " bar-active" : ""}`}></span>
+        <span className={`bar${active ? " bar-active" : ""}`}></span>
+        <span className={`bar${active ? " bar-active" : ""}`}></span>
       </div>
       <ul className={`nav-list${active ? " active" : ""}`}>
         <li className="nav-item">

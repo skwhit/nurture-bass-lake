@@ -94,4 +94,7 @@
       transition: all 0.3s ease-in-out;
       background-color: white;
     }
+    .bar-active {
+        background-color: black;
+    }
   }
