@@ -21,6 +21,7 @@
     height: calc(85dvh - 150px);
     width: 100%;
     /* border: 2px solid red; */
+    border-radius: 5px;
 }
 
 .carousel img {
@@ -29,7 +30,7 @@
     /* border: 2px solid red; */
     object-fit: cover;
     object-position: center;
-    border-radius: 5px;
+    /* border-radius: 5px; */
 }
 
 .carousel p {
@@ -51,7 +52,7 @@
         height: 100%;
         /* border: 2px solid red; */
     }
-    .carousel img {
-        border-radius: none;
+    .carousel div {
+        border-radius: 0px;
     }
 }
