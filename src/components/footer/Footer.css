@@ -88,14 +88,17 @@ footer p {
 
 @media (max-width: 1400px) {
     footer {
-        height: 400px;
+        height: 450px;
     }
 }
 
 @media (max-width: 600px) {
+
     footer {
-        flex-direction: column;
         height: auto;
+    }
+    footer section {
+        flex-direction: column;
         gap: 50px;
     }
     footer p {
