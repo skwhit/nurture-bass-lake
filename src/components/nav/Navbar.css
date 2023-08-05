@@ -6,6 +6,7 @@
     position: fixed;
     width: 100%;
     background-color: black;
+    z-index: 10;
 }
 
 .logo-container {
@@ -29,3 +30,68 @@
 .nav-link {
     text-decoration: none;
 }
+
+.hamburger {
+    display: hidden;
+  }
+  
+  .bar {
+    display: hidden;
+  }
+  
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+  
+  .nav-list.active {
+    right: 0;
+    top: 0;
+  }
+
+  @media (max-width: 600px) {
+
+    .nav-list {
+        position: absolute;
+        /* z-index: 99999; */
+        right: -100%;
+        background-color: #fbfbfb;
+        
+        flex-direction: column;
+        width: 150px;
+        border-radius: 0 0 0 5px;
+        gap: 10px;
+        padding: 20px 10px;
+        /* height: 100vh; */
+        justify-content: flex-start;
+        transition: .3s ease;
+        z-index: 11;
+      }
+
+    .hamburger {
+      display: block;
+      padding: 1.5rem;
+      position: fixed;
+      top: 0;
+      right: 0;
+      margin: 3px 3px 0 0;
+      color: white;
+      z-index: 99;
+      /* border: 2px solid white; */
+    }
+    .bar {
+      display: block;
+    
+      width: 25px;
+      height: 3px;
+      margin: 5px auto;
+      -webkit-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out;
+      background-color: white;
+    }
+  }
