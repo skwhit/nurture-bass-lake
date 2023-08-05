@@ -15,7 +15,7 @@ export default function About() {
         <div className="restaurant-info-one">
           <div>
             {" "}
-            <h1>Mission Statement</h1>
+            <h1>MISSION STATEMENT</h1>
             <p>
               Our mission is to help people nurture themselves and their
               relationships with others over good food and to provide a space
@@ -24,9 +24,9 @@ export default function About() {
           </div>
           <div>
             {" "}
-            <h1>Where we're located</h1>
+            <h1>WHERE WE'RE LOCATED</h1>
             <p>
-              We are located in the heart of the Pine's Village in Bass Lake,
+              We are located in the heart of the Pines Village in Bass Lake,
               California. Bass Lake is an exclusive resort area and fun mountain
               community, located just south of Yosemite National Park.
             </p>
@@ -65,7 +65,7 @@ export default function About() {
 
         <div className="restaurant-info-four">
           <div>
-            <h1>Who we serve</h1>
+            <h1>WHO WE SERVE</h1>
             <p>
               Whether you're a Bass Lake local or you are vacationing at Bass
               Lake, we have a place for you. We offer our customers an inviting
@@ -76,7 +76,7 @@ export default function About() {
             </p>
           </div>
           <div>
-            <h1>What we serve</h1>
+            <h1>WHAT WE SERVE</h1>
             <p>
               Nurture Bass Lake offers excellent coffee choices, and various
               breakfast items. We also specialize in Acai bowls made with fresh

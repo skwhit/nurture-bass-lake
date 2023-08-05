@@ -53,8 +53,12 @@ footer p {
 .socials-container {
     display: flex;
     justify-content: center;
-    gap: 50px;
+    gap: 80px;
     width: 250px;
+}
+
+.socials-container p {
+    text-align: center;
 }
 
 .socials-container a {

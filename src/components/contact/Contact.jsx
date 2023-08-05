@@ -9,7 +9,7 @@ export default function Contact() {
     <main className="contact-container">
       <section>
         <div className="founders-container">
-          <h1>Meet the owners</h1>
+          <h1>MEET THE OWNERS</h1>
           <div>
             <div className="founder-image-container">
               <img src={kurtJanice} alt="Image of Kurt and Janice" />
@@ -29,11 +29,12 @@ export default function Contact() {
             name="EmailForm"
           >
             <h3>
-              Have a question or comment? Please don't hesitate to reach out!
+              QUESTION OR COMMENT? <br/>
+              Please don't hesitate to reach out!
             </h3>
             <div className="name-container">
               <div className="request-input">
-                <label htmlFor="firstName">First Name (required)</label>
+                <label htmlFor="firstName">First name (required)</label>
                 <input id="firstName" type="text" name="firstName" required></input>
               </div>
               <div className="request-input">

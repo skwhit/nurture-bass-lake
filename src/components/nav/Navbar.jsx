@@ -59,7 +59,7 @@ export default function Navbar({ setHome }) {
             className={`nav-link`}
             to="/"
           >
-            Home
+            HOME
           </NavLink>
         </li>
         <li className="nav-item">
@@ -69,7 +69,7 @@ export default function Navbar({ setHome }) {
             className={`nav-link`}
             to="/menu"
           >
-            Menu
+            MENU
           </NavLink>
         </li>
 
@@ -80,7 +80,7 @@ export default function Navbar({ setHome }) {
             className={`nav-link`}
             to="/about"
           >
-            About
+            ABOUT
           </NavLink>
         </li>
         <li className="nav-item">
@@ -90,7 +90,7 @@ export default function Navbar({ setHome }) {
             className={`nav-link`}
             to="/contact"
           >
-            Contact
+            CONTACT
           </NavLink>
         </li>
       </ul>

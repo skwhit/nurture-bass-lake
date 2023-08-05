@@ -37,7 +37,7 @@ export default function Home() {
         </Carousel>
       </section>
       <section className="home-title">
-        <h1>Nurture Bass Lake</h1>
+        <h1>NURTURE BASS LAKE</h1>
         <h3>Healthy food for your adventures</h3>
       </section>
     </main>
