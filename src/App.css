@@ -25,4 +25,7 @@
   li {
     font-size: 1.3rem;
   }
+  label {
+    font-size: .8rem;
+  }
 }

@@ -121,4 +121,14 @@ form {
       form {
         width: 100%;
       }
+      .request-input label {
+        font-size: .8rem;
+    }
+}
+
+@media (max-width: 374px) {
+  
+    .request-input label {
+      font-size: .6rem;
+  }
 }
