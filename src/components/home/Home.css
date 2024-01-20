@@ -2,6 +2,8 @@
     
     padding-top: 150px;
     width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .home-container section {
@@ -20,8 +22,9 @@
     justify-content: center;
 }
 .carousel {
-    width: 70%;
+    width: 60%;
     height: 100%;
+    max-width: 1600px;
     /* border: 2px solid red; */
 }
 
@@ -39,6 +42,10 @@
     object-fit: cover;
     object-position: center;
     /* border-radius: 5px; */
+}
+
+.carousel-one img {
+    object-position: top;
 }
 
 .carousel p {

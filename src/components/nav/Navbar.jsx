@@ -2,6 +2,7 @@ import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import "./Navbar.css";
 import logoDark from "../../assets/nurture-dark.png";
+import logo from "../../assets/logo.jpg"
 
 export default function Navbar({ setHome }) {
   const [active, setActive] = useState(false);
@@ -41,7 +42,7 @@ export default function Navbar({ setHome }) {
             className={`nav-link`}
             to="/"
           >
-            <img src={logoDark} alt="nurture logo" />
+            <img src={logo} alt="nurture logo" />
           </NavLink>
         </div>
         <div

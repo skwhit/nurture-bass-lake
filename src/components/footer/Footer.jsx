@@ -30,9 +30,9 @@ export default function Footer() {
                   Instagram <br /> @nurturebasslake
                 </p>
               </a>
-              <a target="_blank" href="https://www.facebook.com/">
+              <a target="_blank" href="https://www.facebook.com/profile.php?id=100095190627640">
                 <i className="fa-brands fa-facebook"></i>
-                <p>Facebook</p>
+                <p>Facebook <br /> @nurturebasslake</p>
               </a>
               {/* <a target="_blank" href="https://www.youtube.com/">
             <i class="fa-brands fa-youtube"></i>

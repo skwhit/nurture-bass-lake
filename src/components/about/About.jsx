@@ -2,11 +2,15 @@ import React from "react";
 import "./About.css";
 import bassLake1 from "../../assets/bassLake1.jpg";
 import bassLake2 from "../../assets/bassLake2.jpg";
-import bassLake3 from "../../assets/bassLake3.jpg";
+import exteriorThree from "../../assets/exteriorThree.jpg";
 import restaurant from "../../assets/restaurant-inside.jpg"
 import acai1 from "../../assets/acai1.jpg";
 import coffee1 from "../../assets/coffee1.jpg";
 import eggs1 from "../../assets/eggs1.jpg";
+import interiorFour from "../../assets/interiorFour.jpg";
+import interiorThree from "../../assets/interiorThree.jpg"
+import interiorTwo from "../../assets/interiorTwo.jpg"
+import itemSix from "../../assets/itemSix.jpg"
 
 export default function About() {
   return (
@@ -38,7 +42,7 @@ export default function About() {
               <img src={bassLake1} alt="Image of Bass Lake" />
             </div>
             <div>
-              <img src={bassLake3} alt="Image of Bass Lake" />
+              <img src={exteriorThree} alt="Image of Bass Lake" />
             </div>
           </div>
 
@@ -48,17 +52,17 @@ export default function About() {
         </div>
         <div className="restaurant-info-three">
           <div className="restaurant-info-three-top">
-            <img src={restaurant} alt="Image inside the restaurant" />
+            <img src={interiorFour} alt="Image inside the restaurant" />
           </div>
           <div className="restaurant-info-three-bottom">
             <div>
-              <img src={acai1} alt="Image of Acai bowl menu item" />
+              <img src={interiorTwo} alt="Image of Acai bowl menu item" />
             </div>
             <div>
-              <img src={coffee1} alt="Image of coffee menu item" />
+              <img src={itemSix} alt="Image of coffee menu item" />
             </div>
             <div>
-              <img src={eggs1} alt="Image of breakfast menu item" />
+              <img src={interiorThree} alt="Image of breakfast menu item" />
             </div>
           </div>
         </div>
