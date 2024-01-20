@@ -2,7 +2,7 @@ import React from "react";
 import "./About.css";
 import bassLake1 from "../../assets/bassLake1.jpg";
 import bassLake2 from "../../assets/bassLake2.jpg";
-import exteriorThree from "../../assets/exteriorThree.jpg";
+import exteriorFour from "../../assets/exteriorFour.jpg";
 import restaurant from "../../assets/restaurant-inside.jpg"
 import acai1 from "../../assets/acai1.jpg";
 import coffee1 from "../../assets/coffee1.jpg";
@@ -42,7 +42,7 @@ export default function About() {
               <img src={bassLake1} alt="Image of Bass Lake" />
             </div>
             <div>
-              <img src={exteriorThree} alt="Image of Bass Lake" />
+              <img src={exteriorFour} alt="Image of Nurture" />
             </div>
           </div>
 
@@ -73,10 +73,7 @@ export default function About() {
             <p>
               Whether you're a Bass Lake local or you are vacationing at Bass
               Lake, we have a place for you. We offer our customers an inviting
-              environment in which to linger and enjoy food and beverages. We
-              have comfortable indoor dining as well as patio dining at the back
-              of the building that has a rare view of Bass Lake. The patio is a
-              very relaxing area to enjoy casual dining under the trees.
+              environment to linger and enjoy food and beverages.
             </p>
           </div>
           <div>

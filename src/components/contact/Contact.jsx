@@ -3,6 +3,7 @@ import React from "react";
 import "./Contact.css";
 import kurtJanice from "../../assets/kurt-janice.jpg";
 import marNicki from "../../assets/mar-nicki.jpeg";
+import founders from "../../assets/founders.jpg"
 
 export default function Contact() {
   return (
@@ -10,16 +11,10 @@ export default function Contact() {
       <section>
         <div className="founders-container">
           <h1>MEET THE OWNERS</h1>
-          <div>
             <div className="founder-image-container">
-              <img src={kurtJanice} alt="Image of Kurt and Janice" />
-              <p>Kurt and Janice Whitlow</p>
+              <img src={founders} alt="Image of Kurt and Janice" />
+              <p>Mario, Nicki, Janice, and Kurt</p>
             </div>
-            <div className="founder-image-container">
-              <img src={marNicki} alt="Image of Mario and Nicki" />
-              <p>Mario and Nicki Trevino</p>
-            </div>
-          </div>
         </div>
         <div className="form-container">
           <h3>

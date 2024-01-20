@@ -5,18 +5,20 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 // import coffee1 from "../../assets/coffee1.jpg";
 // import eggs1 from "../../assets/eggs1.jpg";
 
-import itemOne from "../../assets/itemOne.jpg"
-import itemTwo from "../../assets/itemTwo.jpg"
-import itemThree from "../../assets/itemThree.jpg"
-import itemFour from "../../assets/itemFour.jpg"
-import itemFive from "../../assets/itemFive.jpg"
-import exteriorOne from "../../assets/exteriorTwo.jpg"
-import exteriorThree from "../../assets/exteriorThree.jpg"
-import interiorOne from "../../assets/interiorOne.jpg"
-import interiorTwo from "../../assets/interiorTwo.jpg"
-import interiorThree from "../../assets/interiorThree.jpg"
-import interiorFive from "../../assets/interiorFive.jpg"
+import itemOne from "../../assets/itemOne.jpg";
+import itemTwo from "../../assets/itemTwo.jpg";
+import itemThree from "../../assets/itemThree.jpg";
+import itemFour from "../../assets/itemFour.jpg";
+import itemFive from "../../assets/itemFive.jpg";
+import itemSeven from "../../assets/itemSeven.jpg";
+import itemEight from "../../assets/itemEight.jpg";
 
+import exteriorTwo from "../../assets/exteriorTwo.jpg";
+import exteriorThree from "../../assets/exteriorThree.jpg";
+import interiorOne from "../../assets/interiorOne.jpg";
+import interiorTwo from "../../assets/interiorTwo.jpg";
+import interiorThree from "../../assets/interiorThree.jpg";
+import interiorFive from "../../assets/interiorFive.jpg";
 
 import "./Home.css";
 
@@ -37,7 +39,7 @@ export default function Home() {
             className="carousel"
           >
             <div className="carousel-zero">
-              <img src={exteriorThree} />
+              <img src={exteriorTwo} />
             </div>
             <div className="carousel-one">
               <img src={interiorFive} />
@@ -47,6 +49,9 @@ export default function Home() {
             </div>
             <div className="carousel-three">
               <img src={interiorTwo} />
+            </div>
+            <div className="carousel-three">
+              <img src={itemSeven} />
             </div>
             <div className="carousel-four">
               <img src={itemOne} />
@@ -63,6 +68,9 @@ export default function Home() {
             </div> */}
             <div className="carousel-six">
               <img src={interiorOne} />
+            </div>
+            <div className="carousel-six">
+              <img src={itemEight} />
             </div>
             <div className="carousel-seven">
               <img src={itemFive} />
