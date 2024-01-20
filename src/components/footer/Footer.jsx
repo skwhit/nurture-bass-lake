@@ -30,9 +30,14 @@ export default function Footer() {
                   Instagram <br /> @nurturebasslake
                 </p>
               </a>
-              <a target="_blank" href="https://www.facebook.com/profile.php?id=100095190627640">
+              <a
+                target="_blank"
+                href="https://www.facebook.com/profile.php?id=100095190627640"
+              >
                 <i className="fa-brands fa-facebook"></i>
-                <p>Facebook <br /> @nurturebasslake</p>
+                <p>
+                  Facebook <br /> @nurturebasslake
+                </p>
               </a>
               {/* <a target="_blank" href="https://www.youtube.com/">
             <i class="fa-brands fa-youtube"></i>
@@ -43,9 +48,9 @@ export default function Footer() {
           <div>
             <h3>LEAVE A REVIEW</h3>
             <div className="socials-container">
-              <a target="_blank" href="https://www.yelp.com/">
-                <i className="fa-brands fa-yelp"></i>
-                <p>Yelp</p>
+              <a target="_blank" href="https://www.google.com/search?q=nurture+bass+lake+reviews&sca_esv=600107017&sxsrf=ACQVn0-u6aLhi7xVYhvYSos05kZmKpR5Bw%3A1705779222547&ei=FiCsZYb_INL3kPIP34qHmA4&ved=0ahUKEwiG4v_k2uyDAxXSO0QIHV_FAeMQ4dUDCBA&uact=5&oq=nurture+bass+lake+reviews&gs_lp=Egxnd3Mtd2l6LXNlcnAiGW51cnR1cmUgYmFzcyBsYWtlIHJldmlld3MyDhAAGIAEGIoFGIYDGLADMg4QABiABBiKBRiGAxiwA0j9GlCKC1iXDnABeACQAQCYAWSgAfACqgEDMy4xuAEDyAEA-AEBwgIKECEYChigARjDBMICCBAhGKABGMME4gMEGAEgQYgGAZAGAg&sclient=gws-wiz-serp#lrd=0x809429ceff79014d:0x471cbd433e980f60,3">
+                <i className="fa-brands fa-google"></i>
+                <p>Google Reviews</p>
               </a>
             </div>
           </div>

@@ -70,8 +70,8 @@ export default function Home() {
           </Carousel>
         </div>
         <div className="home-title">
-          <h1>NURTURE BASS LAKE</h1>
-          <h3>Nurture Yourself, Nurture Others</h3>
+          <h1>NURTURE YOURSELF, NURTURE OTHERS</h1>
+          {/* <h3>NURTURE YOURSELF, NURTURE OTHERS</h3> */}
         </div>
       </section>
     </main>

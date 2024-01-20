@@ -22,24 +22,61 @@ export default function Contact() {
           </div>
         </div>
         <div className="form-container">
-          <form
+          <h3>
+            QUESTION OR COMMENT? <br />
+            Please don't hesitate to reach out!
+          </h3>
+          <p className="contact-email">
+            email: <a href="mailto:nurturebasslake@gmail.com">nurturebasslake@gmail.com</a>
+          </p>
+          <div className="contact-socials">
+              <a
+                target="_blank"
+                href="https://www.instagram.com/nurturebasslake/"
+              >
+                <i className="fa-brands fa-instagram"></i>
+                <p>
+                  Instagram <br /> @nurturebasslake
+                </p>
+              </a>
+              <a
+                target="_blank"
+                href="https://www.facebook.com/profile.php?id=100095190627640"
+              >
+                <i className="fa-brands fa-facebook"></i>
+                <p>
+                  Facebook <br /> @nurturebasslake
+                </p>
+              </a>
+            </div>
+          {/* <form
             action="https://getform.io/f/a85b10b6-4183-4e3b-97ba-77c073ec4eee"
             method="post"
             enctype="multipart/form-data"
             name="EmailForm"
           >
             <h3>
-              QUESTION OR COMMENT? <br/>
+              QUESTION OR COMMENT? <br />
               Please don't hesitate to reach out!
             </h3>
             <div className="name-container">
               <div className="request-input">
                 <label htmlFor="firstName">First name (required)</label>
-                <input id="firstName" type="text" name="firstName" required></input>
+                <input
+                  id="firstName"
+                  type="text"
+                  name="firstName"
+                  required
+                ></input>
               </div>
               <div className="request-input">
                 <label htmlFor="lastName">Last Name (required)</label>
-                <input id="lastName" type="text" name="lastName" required></input>
+                <input
+                  id="lastName"
+                  type="text"
+                  name="lastName"
+                  required
+                ></input>
               </div>
             </div>
             <div className="request-input">
@@ -62,7 +99,7 @@ export default function Contact() {
             <button type="submit" value="Submit">
               Submit
             </button>
-          </form>
+          </form> */}
         </div>
       </section>
     </main>
