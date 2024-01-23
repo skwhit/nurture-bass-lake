@@ -4,6 +4,14 @@ footer {
     padding: 25px 5%;
     height: 600px;
     display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+footer section {
+    display: flex;
+    width: 100%;
+    max-width: 2400px;
 }
 
 footer p {
@@ -80,14 +88,17 @@ footer p {
 
 @media (max-width: 1400px) {
     footer {
-        height: 400px;
+        height: 450px;
     }
 }
 
 @media (max-width: 600px) {
+
     footer {
-        flex-direction: column;
         height: auto;
+    }
+    footer section {
+        flex-direction: column;
         gap: 50px;
     }
     footer p {

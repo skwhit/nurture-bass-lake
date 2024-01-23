@@ -1,8 +1,19 @@
 .home-container {
+    
+    padding-top: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.home-container section {
+    width: 100%;
+    max-width: 2000px;
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 20px;
-    padding-top: 150px;
 }
 
 .carousel-container {
@@ -12,8 +23,9 @@
     justify-content: center;
 }
 .carousel {
-    width: 70%;
+    width: 58%;
     height: 100%;
+    max-width: 1600px;
     /* border: 2px solid red; */
 }
 
@@ -31,6 +43,14 @@
     object-fit: cover;
     object-position: center;
     /* border-radius: 5px; */
+}
+
+.carousel-zero img {
+    object-position: bottom;
+}
+
+.carousel-one img {
+    object-position: top;
 }
 
 .carousel p {
