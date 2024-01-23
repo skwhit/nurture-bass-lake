@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import "./Navbar.css";
-import logoDark from "../../assets/nurture-dark.png";
 import logo from "../../assets/logo.jpg"
 
 export default function Navbar({ setHome }) {

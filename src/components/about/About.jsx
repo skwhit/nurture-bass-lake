@@ -3,10 +3,6 @@ import "./About.css";
 import bassLake1 from "../../assets/bassLake1.jpg";
 import bassLake2 from "../../assets/bassLake2.jpg";
 import exteriorFour from "../../assets/exteriorFour.jpg";
-import restaurant from "../../assets/restaurant-inside.jpg"
-import acai1 from "../../assets/acai1.jpg";
-import coffee1 from "../../assets/coffee1.jpg";
-import eggs1 from "../../assets/eggs1.jpg";
 import interiorFour from "../../assets/interiorFour.jpg";
 import interiorThree from "../../assets/interiorThree.jpg"
 import interiorTwo from "../../assets/interiorTwo.jpg"
@@ -32,7 +28,7 @@ export default function About() {
             <p>
               We are located in the heart of the Pines Village in Bass Lake,
               California. Bass Lake is an exclusive resort area and fun mountain
-              community, located just south of Yosemite National Park.
+              community, located just south of Yosemite National Park near Oakhurst, California.
             </p>
           </div>
         </div>
@@ -73,7 +69,7 @@ export default function About() {
             <p>
               Whether you're a Bass Lake local or you are vacationing at Bass
               Lake, we have a place for you. We offer our customers an inviting
-              environment to linger and enjoy food and beverages.
+              environment to linger and enjoy coffee, food, and other beverages.
             </p>
           </div>
           <div>

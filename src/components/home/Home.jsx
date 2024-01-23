@@ -1,9 +1,6 @@
 import React from "react";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-// import acai1 from "../../assets/acai1.jpg";
-// import coffee1 from "../../assets/coffee1.jpg";
-// import eggs1 from "../../assets/eggs1.jpg";
 
 import itemOne from "../../assets/itemOne.jpg";
 import itemTwo from "../../assets/itemTwo.jpg";
@@ -12,6 +9,9 @@ import itemFour from "../../assets/itemFour.jpg";
 import itemFive from "../../assets/itemFive.jpg";
 import itemSeven from "../../assets/itemSeven.jpg";
 import itemEight from "../../assets/itemEight.jpg";
+import itemNine from "../../assets/itemNine.jpg";
+import itemTen from "../../assets/itemTen.jpg";
+
 
 import exteriorTwo from "../../assets/exteriorTwo.jpg";
 import exteriorThree from "../../assets/exteriorThree.jpg";
@@ -50,30 +50,33 @@ export default function Home() {
             <div className="carousel-three">
               <img src={interiorTwo} />
             </div>
-            <div className="carousel-three">
+            <div className="carousel-four">
               <img src={itemSeven} />
             </div>
-            <div className="carousel-four">
+            <div className="carousel-five">
               <img src={itemOne} />
             </div>
             {/* <div className="carousel-two">
               <img src={itemTwo} />
             </div> */}
-            <div className="carousel-five">
+            <div className="carousel-six">
+              <img src={itemTen} />
+            </div>
+            <div className="carousel-seven">
               <img src={itemThree} />
             </div>
             {/* <div className="carousel-four">
               <img src={itemFour} />
               <p className="legend">Legend 3</p>
             </div> */}
-            <div className="carousel-six">
+            <div className="carousel-eight">
               <img src={interiorOne} />
             </div>
-            <div className="carousel-six">
+            <div className="carousel-nine">
               <img src={itemEight} />
             </div>
-            <div className="carousel-seven">
-              <img src={itemFive} />
+            <div className="carousel-ten">
+              <img src={itemNine} />
             </div>
           </Carousel>
         </div>
