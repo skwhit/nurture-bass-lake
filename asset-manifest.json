@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/nurture-bass-lake/static/css/main.f52045a1.css",
-    "main.js": "/nurture-bass-lake/static/js/main.405a5c9e.js",
+    "main.js": "/nurture-bass-lake/static/js/main.bbd301e6.js",
     "static/media/interiorThree.jpg": "/nurture-bass-lake/static/media/interiorThree.51c5cd759a887f0a4b21.jpg",
     "static/media/interiorFive.jpg": "/nurture-bass-lake/static/media/interiorFive.463ecdcee86572f1b365.jpg",
     "static/media/interiorOne.jpg": "/nurture-bass-lake/static/media/interiorOne.8a1075c00bc7703670ad.jpg",
@@ -11,7 +11,6 @@
     "static/media/itemEight.jpg": "/nurture-bass-lake/static/media/itemEight.2992d8a13090afbe55d9.jpg",
     "static/media/founders.jpg": "/nurture-bass-lake/static/media/founders.798ba4525576e46cf451.jpg",
     "static/media/itemFour.jpg": "/nurture-bass-lake/static/media/itemFour.10c77b70138ff323c742.jpg",
-    "static/media/kurt-janice.jpg": "/nurture-bass-lake/static/media/kurt-janice.a27233800f0f9c043cd2.jpg",
     "static/media/interiorTwo.jpg": "/nurture-bass-lake/static/media/interiorTwo.35569c7e77bae020d31e.jpg",
     "static/media/bassLake2.jpg": "/nurture-bass-lake/static/media/bassLake2.e74c09c0657e2b1830e2.jpg",
     "static/media/exteriorTwo.jpg": "/nurture-bass-lake/static/media/exteriorTwo.b1b45ae4e5d2e79daa92.jpg",
@@ -28,14 +27,13 @@
     "static/media/itemThree.jpg": "/nurture-bass-lake/static/media/itemThree.a1c37548ef95c9141ea7.jpg",
     "static/media/itemSix.jpg": "/nurture-bass-lake/static/media/itemSix.f0940cd15725526e018e.jpg",
     "static/media/menuFour.jpg": "/nurture-bass-lake/static/media/menuFour.7ba6fc7a4b5b24014ccc.jpg",
-    "static/media/mar-nicki.jpeg": "/nurture-bass-lake/static/media/mar-nicki.272a0ca9f50151da069e.jpeg",
     "static/media/logo.jpg": "/nurture-bass-lake/static/media/logo.2eb2d6864633031ec5c8.jpg",
     "index.html": "/nurture-bass-lake/index.html",
     "main.f52045a1.css.map": "/nurture-bass-lake/static/css/main.f52045a1.css.map",
-    "main.405a5c9e.js.map": "/nurture-bass-lake/static/js/main.405a5c9e.js.map"
+    "main.bbd301e6.js.map": "/nurture-bass-lake/static/js/main.bbd301e6.js.map"
   },
   "entrypoints": [
     "static/css/main.f52045a1.css",
-    "static/js/main.405a5c9e.js"
+    "static/js/main.bbd301e6.js"
   ]
 }
