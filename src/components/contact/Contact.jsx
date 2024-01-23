@@ -1,8 +1,6 @@
 import React from "react";
 
 import "./Contact.css";
-import kurtJanice from "../../assets/kurt-janice.jpg";
-import marNicki from "../../assets/mar-nicki.jpeg";
 import founders from "../../assets/founders.jpg"
 
 export default function Contact() {
